@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #0f172a;
+    /* fondo */
+    --color-secondary: #1e293b;
+    /* contenedores */
+    --color-tertiary: #ffffff;
+    /* texto */
+    --color-accent: #38bdf8;
+    /* azul */
+    --color-gradientStart: #3b82f6;
+    /* azul degradado */
+    --color-gradientEnd: #10b981;
+    /* verde degradado */
+
+    --font-inter: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --font-abhaya: 'Abhaya Libre', serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-inter);
+    background-color: var(--color-primary);
+    color: var(--color-tertiary);
+    scroll-behavior: smooth;
+}
+
+.page {
+    min-height: 100vh;
+    background: radial-gradient(circle at top left, #1e293b, #0f172a);
+}
+
+/* ---------- Animaciones tipo Bolt ---------- */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1s ease-in forwards;
+}
