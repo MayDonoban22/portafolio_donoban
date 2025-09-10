@@ -70,4 +70,4 @@ public/
 
 ---
 
-Este proyecto es de código abierto y puedes adaptarlo para
+Este proyecto es de código abierto y puedes adaptarlo
