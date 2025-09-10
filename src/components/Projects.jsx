@@ -52,7 +52,7 @@ function Projects() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-gradient-to-r from-gradientStart to-gradientEnd 
-          text-white py-3 px-6 rounded-lg font-semibold shadow-lg hover:opacity-90  hover:scale-105 transition-transform"
+          text-white py-3 px-6 rounded-lg font-semibold shadow-lg hover:opacity-90 hover:scale-105 transition-transform"
         >
           <FaGithub className="text-2xl" />
           Ver más en GitHub

@@ -10,7 +10,7 @@ function Contact() {
         href="/cv.pdf"
         download="May-Donoban-CV.pdf"
         className="bg-gradient-to-r from-gradientStart to-gradientEnd 
-        py-3 px-6 rounded-lg font-semibold hover:opacity-90 transition shadow-lg cursor-pointer 
+        py-3 px-6 rounded-lg font-semibold hover:opacity-90 hover:scale-105 transition-transform shadow-lg cursor-pointer 
         inline-flex items-center justify-center gap-2 text-white mb-4"
       >
         📄 Descargar Hoja de Vida
