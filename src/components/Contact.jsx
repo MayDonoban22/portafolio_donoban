@@ -5,7 +5,7 @@ function Contact() {
       <p className="text-gray-300 mb-8">
         ¿Quieres trabajar conmigo o tienes alguna consulta? ¡Hablemos! 🚀
       </p>
-      {/* Botón de descarga CV */}
+
       <a
         href="/cv.pdf"
         download="May-Donoban-CV.pdf"
@@ -19,17 +19,17 @@ function Contact() {
         <input
           type="text"
           placeholder="Tu nombre"
-          className="p-3 rounded-lg bg-[var(--color-secondary)] text-white focus:outline-none shadow-md"
+          className="p-3 rounded-lg bg-secondary text-white focus:outline-none shadow-md"
         />
         <input
           type="email"
           placeholder="Tu correo"
-          className="p-3 rounded-lg bg-[var(--color-secondary)] text-white focus:outline-none shadow-md"
+          className="p-3 rounded-lg bg-secondary text-white focus:outline-none shadow-md"
         />
         <textarea
           placeholder="Escribe tu mensaje..."
           rows="5"
-          className="p-3 rounded-lg bg-[var(--color-secondary)] text-white focus:outline-none shadow-md"
+          className="p-3 rounded-lg bg-secondary text-white focus:outline-none shadow-md"
         ></textarea>
         <button
           type="submit"

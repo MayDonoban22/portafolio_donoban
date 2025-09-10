@@ -21,7 +21,7 @@ function Footer() {
           <FaLinkedin size={22} />
         </a>
         <a
-          href="mailto:maydonoban22@gmail.com"
+          href="rppride_2411@hotmail.com"
           className="text-gray-400 hover:text-[var(--color-accent)]"
         >
           <FaEnvelope size={22} />
