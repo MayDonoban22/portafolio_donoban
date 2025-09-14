@@ -15,9 +15,10 @@ function Projects() {
       link: "https://rubiela-tarot.vercel.app/",
     },
     {
-      titulo: "Portafolio Web",
-      descripcion: "Mi sitio personal construido con React y Tailwind.",
-      link: "#",
+      titulo: "Homeland Project",
+      descripcion:
+        "Página web responsiva creada con HTML, CSS y JavaScript a partir de un brief en Figma. Deploy en GitHub Pages.",
+      link: "https://maydonoban22.github.io/web_project_homeland/",
     },
   ];
 

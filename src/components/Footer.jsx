@@ -13,7 +13,7 @@ function Footer() {
           <FaGithub size={22} />
         </a>
         <a
-          href="https://linkedin.com/in/maydonoban"
+          href="https://www.linkedin.com/in/espitia-may-donoban/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-[var(--color-accent)]"
