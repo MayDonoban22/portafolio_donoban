@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-primary/80 backdrop-blur-md z-50 px-10 p-6 flex justify-between items-center">
+    <nav className="fixed top-0 left-0 w-full bg-primary/80 backdrop-blur-md z-50 px-10 p-0 flex justify-between items-center">
       <Link
         to="hero"
         smooth={true}
@@ -12,7 +12,7 @@ function Navbar() {
         <img
           src="assets/Logo-May.png"
           alt="Logo May Donoban"
-          className="h-auto w-25 object-contain hover:scale-110 transition-transform duration-300"
+          className="h-auto w-30 object-contain hover:scale-110 transition-transform duration-300"
         />
       </Link>
 
