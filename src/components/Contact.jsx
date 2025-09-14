@@ -36,7 +36,6 @@ function Contact() {
         ¿Quieres trabajar conmigo o tienes alguna consulta? ¡Hablemos! 🚀
       </p>
 
-      {/* Botón Hoja de Vida */}
       <div className="mb-10">
         <a
           href="/cv.pdf"
@@ -50,7 +49,6 @@ function Contact() {
         </a>
       </div>
 
-      {/* Formulario */}
       <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
         <input
           type="text"
@@ -58,7 +56,7 @@ function Contact() {
           placeholder="Tu nombre"
           required
           className="p-3 rounded-lg bg-secondary text-white 
-          focus:outline-none focus:ring-2 focus:ring-gradientEnd shadow-md"
+          focus:outline-none focus:ring-2 focus:ring-gradientStart shadow-md"
         />
         <input
           type="email"
@@ -67,7 +65,7 @@ function Contact() {
           required
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
           className="p-3 rounded-lg bg-secondary text-white 
-          focus:outline-none focus:ring-2 focus:ring-gradientEnd shadow-md"
+          focus:outline-none focus:ring-2 focus:ring-gradientStart shadow-md"
         />
         <textarea
           name="message"
@@ -75,7 +73,7 @@ function Contact() {
           rows="5"
           required
           className="p-3 rounded-lg bg-secondary text-white 
-          focus:outline-none focus:ring-2 focus:ring-gradientEnd shadow-md"
+          focus:outline-none focus:ring-2 focus:ring-gradientStart shadow-md"
         ></textarea>
 
         <button
