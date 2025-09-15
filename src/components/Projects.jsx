@@ -5,19 +5,19 @@ function Projects() {
     {
       titulo: "Web Project API Full",
       descripcion:
-        "Aplicación full-stack con autenticación JWT y gestión de tarjetas. Incluye backend en Express/MongoDB y frontend en React.",
+        "Full-stack application with JWT authentication and card management. Includes backend in Express/MongoDB and frontend in React.",
       link: "https://web-project-api-full-git-frontend-maydonoban22s-projects.vercel.app/",
     },
     {
       titulo: "Luz de Rubí",
       descripcion:
-        "Aplicación web en React y TailwindCSS para consultas espirituales, horóscopos y agenda de citas.",
+        "Web application in React and TailwindCSS for spiritual consultations, horoscopes, and appointment scheduling.",
       link: "https://rubiela-tarot.vercel.app/",
     },
     {
       titulo: "Homeland Project",
       descripcion:
-        "Página web responsiva creada con HTML, CSS y JavaScript a partir de un brief en Figma. Deploy en GitHub Pages.",
+        "Responsive website created with HTML, CSS, and JavaScript based on a brief in Figma. Deployed on GitHub Pages.",
       link: "https://maydonoban22.github.io/web_project_homeland/",
     },
   ];
@@ -25,7 +25,7 @@ function Projects() {
   return (
     <div className="py-20 px-6 max-w-6xl mx-auto animate-fadeIn">
       <h2 className="text-3xl font-bold text-center text-accent mb-10">
-        Proyectos
+        Projects
       </h2>
       <div className="grid md:grid-cols-3 gap-8 mb-12">
         {proyectos.map((proyecto, index) => (
@@ -41,7 +41,7 @@ function Projects() {
               rel="noopener noreferrer"
               className="text-[var(--color-accent)] font-medium hover:underline"
             >
-              Ver proyecto →
+              View project →
             </a>
           </div>
         ))}
@@ -56,7 +56,7 @@ function Projects() {
           text-white py-3 px-6 rounded-lg font-semibold shadow-lg hover:opacity-90 hover:scale-105 transition-transform"
         >
           <FaGithub className="text-2xl" />
-          Ver más en GitHub
+          See more on GitHub
         </a>
       </div>
     </div>

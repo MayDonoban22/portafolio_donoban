@@ -28,7 +28,7 @@ function Footer() {
         </a>
       </div>
       <p className="text-gray-400 text-sm">
-        © {new Date().getFullYear()} May Donoban. Todos los derechos reservados.
+        © {new Date().getFullYear()} May Donoban. All rights reserved.
       </p>
     </footer>
   );

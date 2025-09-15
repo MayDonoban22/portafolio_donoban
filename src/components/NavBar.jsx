@@ -29,32 +29,32 @@ function Navbar() {
         </li>
         <li>
           <Link
-            to="proyectos"
+            to="projects"
             smooth={true}
             duration={500}
             className="cursor-pointer hover:text-[var(--color-accent)]"
           >
-            Proyectos
+            Projects
           </Link>
         </li>
         <li>
           <Link
-            to="sobre-mi"
+            to="About-me"
             smooth={true}
             duration={500}
             className="cursor-pointer hover:text-[var(--color-accent)]"
           >
-            Sobre mí
+            About me
           </Link>
         </li>
         <li>
           <Link
-            to="contacto"
+            to="contacts"
             smooth={true}
             duration={500}
             className="cursor-pointer hover:text-[var(--color-accent)]"
           >
-            Contacto
+            Contacts
           </Link>
         </li>
       </ul>
