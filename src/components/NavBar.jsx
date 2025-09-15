@@ -39,7 +39,7 @@ function Navbar() {
         </li>
         <li>
           <Link
-            to="About-me"
+            to="about-me"
             smooth={true}
             duration={500}
             className="cursor-pointer hover:text-[var(--color-accent)]"

@@ -15,7 +15,7 @@ function App() {
         <Hero />
       </section>
 
-      <section id="sobre-mi" className="py-20">
+      <section id="about-me" className="py-20">
         <About />
       </section>
 
@@ -23,11 +23,11 @@ function App() {
         <Skills />
       </section>
 
-      <section id="proyectos" className="py-20">
+      <section id="projects" className="py-20">
         <Projects />
       </section>
 
-      <section id="contacto" className="py-20 bg-[var(--color-secondary)]">
+      <section id="contacts" className="py-20 bg-[var(--color-secondary)]">
         <Contact />
       </section>
 

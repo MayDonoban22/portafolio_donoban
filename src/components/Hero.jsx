@@ -53,7 +53,7 @@ function Hero() {
           </Link>
 
           <Link
-            to="contact"
+            to="contacts"
             smooth={true}
             duration={500}
             className="px-10 py-4 border-2 border-accent text-accent rounded-xl font-semibold cursor-pointer hover:bg-accent/20 hover:text-white  hover:scale-105 transition-all text-center"
