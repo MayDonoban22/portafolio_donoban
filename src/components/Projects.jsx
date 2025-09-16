@@ -6,7 +6,7 @@ function Projects() {
       titulo: "Web Project API Full",
       descripcion:
         "Full-stack application with JWT authentication and card management. Includes backend in Express/MongoDB and frontend in React.",
-      link: "https://web-project-api-full-git-frontend-maydonoban22s-projects.vercel.app/",
+      link: "web-project-api-full-swart.vercel.app",
     },
     {
       titulo: "Luz de Rubí",
