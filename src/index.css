@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* -------------------- THEME -------------------- */
 @theme {
     --color-primary: #0f172a;
     /* fondo */
@@ -18,6 +19,7 @@
     --font-abhaya: 'Abhaya Libre', serif;
 }
 
+/* -------------------- BASE -------------------- */
 html,
 body {
     margin: 0;
@@ -33,7 +35,24 @@ body {
     background: radial-gradient(circle at top left, #1e293b, #0f172a);
 }
 
-/* ---------- Animaciones tipo Bolt ---------- */
+/* -------------------- ANIMACIONES -------------------- */
+
+/* FadeIn general */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1s ease-in forwards;
+}
+
+/* FadeInUp para secciones que aparecen desde abajo */
 @keyframes fadeInUp {
     0% {
         opacity: 0;
@@ -50,16 +69,64 @@ body {
     animation: fadeInUp 0.6s ease-out forwards;
 }
 
-@keyframes fadeIn {
-    from {
+/* -------------------- SLIDE DOWN (para menú móvil) -------------------- */
+@keyframes slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-slide-down {
+    animation: slide-down 0.4s ease-out forwards;
+}
+
+/* -------------------- POP IN (efecto suave de aparición) -------------------- */
+@keyframes popIn {
+    0% {
+        transform: scale(0.8);
         opacity: 0;
     }
 
-    to {
+    80% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
         opacity: 1;
     }
 }
 
-.animate-fadeIn {
-    animation: fadeIn 1s ease-in forwards;
+.animate-popIn {
+    animation: popIn 0.4s ease-out forwards;
+}
+
+/* -------------------- FIX PARA BOTÓN HAMBURGUESA -------------------- */
+nav button {
+    position: relative;
+    z-index: 50;
+    /* garantiza que FaTimes quede sobre el menú móvil */
+}
+
+.mobile-menu {
+    z-index: 40;
+    /* debajo del botón, encima del contenido */
+}
+
+/* -------------------- HOVER TRANSITIONS -------------------- */
+a,
+button {
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+button:hover {
+    transform: scale(1.05);
 }
