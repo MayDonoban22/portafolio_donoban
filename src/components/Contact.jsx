@@ -39,7 +39,7 @@ function Contact() {
 
       <div className="mb-10">
         <a
-          href="/cv.pdf"
+          href="/cv-donoban.pdf"
           download="May-Donoban-CV.pdf"
           className="bg-gradient-to-r from-gradientStart to-gradientEnd 
           py-3 px-6 rounded-lg font-semibold hover:opacity-90 hover:scale-105 
