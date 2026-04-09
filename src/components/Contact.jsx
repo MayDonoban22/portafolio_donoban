@@ -14,7 +14,7 @@ function Contact() {
         "service_xhpium9", // ✅ Tu Service ID
         "template_2lncmxf", // ✅ Tu Template ID
         form.current,
-        "lF3ZpGePxGBVp1elu" // ✅ Tu Public Key
+        "lF3ZpGePxGBVp1elu", // ✅ Tu Public Key
       )
       .then(
         () => {
@@ -24,7 +24,7 @@ function Contact() {
         (error) => {
           console.error(error);
           alert("❌ Error sending: " + error.text);
-        }
+        },
       )
       .finally(() => setLoading(false));
   };
@@ -39,7 +39,7 @@ function Contact() {
 
       <div className="mb-10">
         <a
-          href="/cv-donoban.pdf"
+          href="/may-donoban-cv.pdf"
           download="May-Donoban-CV.pdf"
           className="bg-gradient-to-r from-gradientStart to-gradientEnd 
           py-3 px-6 rounded-lg font-semibold hover:opacity-90 hover:scale-105 
